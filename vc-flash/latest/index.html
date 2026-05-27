@@ -1,3 +1,132 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>VC投资动态调研｜2026-05-27 22:01</title><style>
-:root{color-scheme:light dark}body{margin:0;background:#f5f7fb;color:#172033;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif;line-height:1.65}.wrap{max-width:760px;margin:0 auto;padding:18px 16px 48px}.hero{background:linear-gradient(135deg,#1769ff,#19b6ff);color:#fff;border-radius:22px;padding:22px 18px;box-shadow:0 14px 36px rgba(23,105,255,.24)}.hero .k{font-size:13px;opacity:.88}.hero h1{font-size:25px;line-height:1.22;margin:8px 0 0}h2{font-size:19px;margin:24px 0 10px;padding-left:10px;border-left:4px solid #1769ff}p,li{font-size:15px}p{margin:9px 0}.card{background:#fff;border-radius:18px;padding:18px;margin-top:14px;box-shadow:0 8px 28px rgba(20,35,70,.08)}ul{padding-left:20px;margin:8px 0}li{margin:7px 0}.point{background:#eef5ff;border-radius:12px;padding:10px 12px}.meta{font-size:12px;color:#6b7280;margin-top:18px}a{color:#1769ff}@media(prefers-color-scheme:dark){body{background:#0d1117;color:#e6edf3}.card{background:#151b23}.point{background:#10243d}.meta{color:#9ba7b4}}
-</style></head><body><main class="wrap"><section class="hero"><div class="k">VC Flash · 2026-05-27 22:01</div><h1>VC投资动态调研</h1></section><section class="card"><h2>核心判断</h2><p class="point">资本正在押注“AI从模型能力转向可交付的基础设施与物理执行层”。</p><h2>重点交易</h2><ul><li><b>OpenAI</b>｜后期/战略融资｜$122B｜Frontier AI / 算力基础设施</li><li><b>Anthropic</b>｜后期融资｜$30B｜Frontier AI / 企业 AI</li><li><b>xAI</b>｜后期融资｜$20B｜Frontier AI / 社交与算力生态</li><li><b>Waymo</b>｜后期融资｜$16B｜自动驾驶 / Physical AI</li><li><b>天机智能</b>｜B轮及B+轮｜10亿元｜高瓴、美团联合领投，腾讯等跟投｜具身智能基础设施</li><li><b>Didit</b>｜Seed｜$7.5M累计｜AI身份与反欺诈</li><li><b>Unframe</b>｜追加融资｜$50M｜企业AI交付平台</li><li><b>Isomorphic Labs</b>｜Series B｜$2.1B｜AI制药</li></ul><h2>赛道热度</h2><ul><li>AI约占Q1全球VC资金80%，超级后期轮决定总量。</li><li>Physical AI/具身智能继续吸金，数据、仿真和评测成为关键。</li><li>Agentic AI资金偏向垂直工作流替代，而不是泛化助手。</li><li>企业AI基础设施细分到身份、权限、安全、审计、合规和交付。</li><li>AI制药、低碳工业、清洁电力仍有大额资金，但更重验证与订单。</li></ul><h2>早期项目</h2><ul><li>Didit：AI-native身份与反欺诈基础设施。</li><li>Blaxel / AppFactor / Trace：Agent运行环境、企业软件维护、采纳控制与审计。</li><li>Signadori Bio：实体瘤现货型免疫疗法。</li><li>中国具身智能供应链“卖铲人”：力控模组、仿真数据、机器人评测。</li></ul><h2>分析师点评</h2><p>市场不是全面复苏，而是瓶颈资产重估。后续重点看订单真实性、交付毛利、可审计工作流和临床/产业验证。</p><p class="meta">归档：workspace/intel/vc-research/2026-05-27-2201.md</p></section></main></body></html>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#08111f" />
+  <title>VC投资动态调研｜2026-05-27 22:30</title>
+  <style>
+    :root {
+      --bg:#08111f; --ink:#eef4ff; --muted:#93a4bd; --line:rgba(255,255,255,.13);
+      --card:rgba(255,255,255,.075); --card2:rgba(255,255,255,.11); --accent:#62e6ff;
+      --hot:#ffb45e; --green:#8dffb3; --shadow:0 24px 70px rgba(0,0,0,.34);
+    }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background: radial-gradient(circle at 20% -10%, #245ecb 0, transparent 34%), radial-gradient(circle at 90% 10%, #00c6ff66 0, transparent 28%), linear-gradient(180deg,#08111f,#0b1220 48%,#05070d); font-family: ui-serif, 'Songti SC', 'Noto Serif CJK SC', Georgia, serif; }
+    body:before { content:""; position:fixed; inset:0; pointer-events:none; opacity:.22; background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px); background-size:24px 24px; mask-image:linear-gradient(#000,transparent 80%); }
+    .wrap { width:min(980px,100%); margin:0 auto; padding:22px 16px 56px; }
+    .mast { padding:28px 2px 22px; }
+    .kicker { display:inline-flex; gap:8px; align-items:center; color:#07111f; background:var(--accent); border-radius:999px; padding:7px 11px; font:700 12px/1 ui-sans-serif,system-ui; letter-spacing:.08em; text-transform:uppercase; }
+    h1 { margin:18px 0 10px; font-size:clamp(31px,8vw,68px); line-height:.96; letter-spacing:-.055em; max-width:900px; }
+    .summary { color:#d8e4f7; font-size:clamp(16px,4vw,21px); line-height:1.62; max-width:760px; margin:0; }
+    .meta { display:flex; flex-wrap:wrap; gap:10px; margin-top:18px; color:var(--muted); font:600 12px/1.2 ui-sans-serif,system-ui; }
+    .pill { border:1px solid var(--line); background:rgba(255,255,255,.06); border-radius:999px; padding:8px 10px; }
+    .card { margin:14px 0; padding:18px; border:1px solid var(--line); border-radius:28px; background:linear-gradient(180deg,var(--card2),var(--card)); box-shadow:var(--shadow); backdrop-filter:blur(18px); }
+    .hero-section { border-color:rgba(98,230,255,.45); background:linear-gradient(135deg,rgba(98,230,255,.17),rgba(255,255,255,.07)); }
+    .deal-section { border-color:rgba(255,180,94,.38); }
+    .comment-section { border-color:rgba(141,255,179,.32); }
+    .meta-section { opacity:.86; }
+    .section-top { display:grid; grid-template-columns:auto 1fr; gap:12px; align-items:start; margin-bottom:12px; }
+    .section-top span { color:#07111f; background:var(--hot); min-width:35px; height:28px; border-radius:12px; display:grid; place-items:center; font:900 12px/1 ui-sans-serif,system-ui; }
+    h2 { margin:0; font-size:22px; letter-spacing:-.03em; line-height:1.12; }
+    h3 { margin:18px 0 8px; color:var(--accent); font:800 15px/1.35 ui-sans-serif,system-ui; }
+    p, li { color:#dce7f8; font-size:15.5px; line-height:1.72; }
+    p { margin:9px 0; }
+    .brief-list { margin:8px 0 0; padding:0; list-style:none; }
+    .brief-list li { position:relative; padding:11px 0 11px 18px; border-top:1px solid rgba(255,255,255,.09); }
+    .brief-list li:before { content:""; position:absolute; left:0; top:22px; width:7px; height:7px; border-radius:50%; background:var(--accent); box-shadow:0 0 18px var(--accent); }
+    strong { color:#fff; font-weight:900; }
+    code { color:#b8f5ff; background:rgba(98,230,255,.12); border:1px solid rgba(98,230,255,.18); padding:2px 5px; border-radius:7px; }
+    .footer { color:var(--muted); padding:24px 4px 0; font:600 12px/1.6 ui-sans-serif,system-ui; }
+    .share { margin-top:14px; display:inline-flex; color:#07111f; background:var(--green); text-decoration:none; border-radius:16px; padding:12px 14px; font:900 13px/1 ui-sans-serif,system-ui; }
+    @media (min-width:760px) { .grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; } .grid .card:first-child, .grid .deal-section { grid-column:1/-1; } .card { margin:0; padding:24px; } }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header class="mast">
+      <div class="kicker">VC FLASH BRIEF</div>
+      <h1>VC投资动态调研｜2026-05-27 22:30</h1>
+      <p class="summary">资本正在押注“AI从模型能力走向可交付基础设施”：资金继续集中流向物理AI/具身智能、企业级AI Agent交付层、AI制药，以及支撑AI扩张的能源、半导体和工业硬科技。</p>
+      <div class="meta"><span class="pill">更新时间：2026-05-27 22:30</span><span class="pill">移动端快讯版</span><span class="pill">AutoClaw Research</span></div>
+      <a class="share" href="https://lorcan-l.github.io/vc-briefs/vc-flash/2026/05/27/2230/vc-brief-2230.html">复制/打开当前链接</a>
+    </header>
+    <div class="grid">
+      
+        <section class="card hero-section">
+          <div class="section-top"><span>01</span><h2>1. 本期核心判断</h2></div>
+          <div class="content"><p>资本正在押注“AI从模型能力走向可交付基础设施”：资金继续集中流向物理AI/具身智能、企业级AI Agent交付层、AI制药，以及支撑AI扩张的能源、半导体和工业硬科技。</p></div>
+        </section>
+        <section class="card deal-section">
+          <div class="section-top"><span>02</span><h2>2. 本期重点交易</h2></div>
+          <div class="content"><ul class="brief-list">
+<li><strong>Didit｜Seed｜750万美元｜Y Combinator、Pioneer Fund、Orange Collective、Founders Future、Phosphor Capital 等｜AI身份与反欺诈基础设施</strong>：VCNewsDaily 5月27日披露，公司追加600万美元种子轮，使总种子融资达750万美元；定位为AI-native身份、KYC/KYB、交易监控与反欺诈基础设施。可信度：高，单笔融资新闻。</li>
+<li><strong>Robot Era｜Venture｜2亿美元｜HSG、IDG Capital、CICC Capital、中国联通等｜人形机器人/具身智能</strong>：AlleyWatch 基于 Crunchbase 的4月全球大额融资榜显示，Robot Era累计股权融资约6.114亿美元，是中国具身智能头部融资样本。可信度：中高，二级数据库汇总。</li>
+<li><strong>Galaxea AI｜Series B｜20亿元人民币｜CICC Capital、产业/地方基金等｜人形机器人/智能系统</strong>：AlleyWatch 披露其累计融资约6.046亿美元，体现中国人形机器人赛道仍处于大额下注期。可信度：中高。</li>
+<li><strong>X Square｜Series B｜20亿元人民币｜HSG、小米｜机器人系统/工业与服务自动化</strong>：同属中国具身智能大额融资队列，说明资本偏好“机器人本体+控制系统+场景落地”的组合。可信度：中高。</li>
+<li><strong>Volant Aerotech｜Series C｜3亿美元｜HSG、Legend Capital、Shanghai Guotou Futeng Capital、Stone Venture 等｜eVTOL/低空经济</strong>：AlleyWatch 4月榜单收录，资金投向载人eVTOL研发制造与服务体系。可信度：中高。</li>
+<li><strong>Valar Atomics｜Series B｜3.4亿美元｜Palmer Luckey、Shyam Sankar 等｜核能/工业能源</strong>：资金投向工业级核能系统，代表AI数据中心时代“电力约束”叙事继续获得资本关注。可信度：中高。</li>
+<li><strong>Blue Energy｜Venture｜3.8亿美元｜At One Ventures、Engine Ventures、Tamarack Global、VXI Capital｜清洁电力/核能</strong>：清洁、可靠、可扩展电力基础设施进入大额VC视野。可信度：中高。</li>
+<li><strong>SiFive｜Series G｜4亿美元｜NVIDIA、Apollo、Point72、Prosperity7 Ventures、Sutter Hill Ventures、T. Rowe Price 等｜半导体/IP</strong>：RISC-V处理器IP获得大额后期融资，说明AI硬件生态的底层IP仍有战略价值。可信度：中高。</li>
+<li><strong>Unframe｜追加融资｜5000万美元｜Highland Europe领投｜企业AI交付平台</strong>：VCNewsDaily 5月22日披露，企业AI从“工具采购”转向“托管交付平台”。可信度：中高。</li>
+<li><strong>Boston Metal｜7500万美元｜低碳金属/工业脱碳</strong>：VCNewsDaily 披露资金用于推进Molten Oxide Electrolysis平台与关键金属产能。可信度：中高。</li>
+<li><strong>Isomorphic Labs｜Series B｜21亿美元｜Thrive Capital、Alphabet、GV、MGX、Temasek、CapitalG、UK Sovereign AI Fund｜AI制药</strong>：Xtalks Biotech tracker 收录，是AI药物设计领域最具代表性的超大额交易之一。可信度：中高，聚合追踪器与公司链接。</li>
+<li><strong>Windward Bio｜Crossover｜1.65亿美元｜OrbiMed、Novo Holdings、Qiming、RA Capital、Sanofi Ventures 等｜免疫/呼吸疾病</strong>：资金支持长效抗体管线与临床读出。可信度：中高。</li>
+</ul></div>
+        </section>
+        <section class="card ">
+          <div class="section-top"><span>03</span><h2>3. 赛道热度观察</h2></div>
+          <div class="content"><ul class="brief-list">
+<li><strong>AI继续主导全球VC总量，但资金高度集中</strong>：Crunchbase 披露，2026年Q1全球创业投资约3000亿美元，其中AI约2420亿美元，占80%；OpenAI、Anthropic、xAI、Waymo四笔巨额融资合计约1880亿美元，占全球季度融资约65%。这不是均衡复苏，而是由头部AI资产带动的结构性膨胀。</li>
+<li><strong>早期轮次也在变大，但项目数未同步扩张</strong>：Crunchbase 数据显示，Q1早期融资约413亿美元，同比增长41%；种子轮约120亿美元，同比增长31%，但种子交易数同比下降30%。结论是“更少项目拿更大钱”，早期市场同样偏向高确定性团队和强叙事基础设施。</li>
+<li><strong>中国市场主线是具身智能、半导体、低空经济与硬科技</strong>：新浪财经/深圳市投资基金同业公会称，2026年4月仅8家具身智能企业融资超200亿元；资金偏好有政策背书、技术壁垒和可交付场景的公司。</li>
+<li><strong>Agentic AI资金更偏垂直工作流替代</strong>：New Market Pitch 统计，Agentic AI头部公司包括Harvey、Sierra、Cognition、Parloa、Decagon等；资本更相信法律、客服、金融、医疗、工程等明确工作流里的AI员工，而不是泛化助手。</li>
+<li><strong>能源与工业基础设施成为AI外溢赛道</strong>：Valar Atomics、Blue Energy、Boston Metal 等交易说明，AI扩张不只带动算力芯片，也把电力、材料、金属和工业脱碳推到VC视野中央。</li>
+<li><strong>AI制药仍吸金，但评价标准更临床化</strong>：Isomorphic Labs、Windward Bio、Coultreon、CellCentric、Fathom 等交易显示，AI/平台叙事仍有效，但投资人同时要求明确靶点、管线推进和可验证临床节点。</li>
+</ul></div>
+        </section>
+        <section class="card ">
+          <div class="section-top"><span>04</span><h2>4. 值得关注的早期项目</h2></div>
+          <div class="content"><ul class="brief-list">
+<li><strong>Didit｜AI身份与反欺诈基础设施</strong>：AI Agent进入金融、支付、交易与企业流程后，身份验证、钱包筛查、交易监控会成为“默认基础层”；种子轮规模不大，但场景外溢空间清晰。</li>
+<li><strong>Fathom Therapeutics｜Series A 4700万美元｜物理+AI小分子设计</strong>：用物理模拟、AI和lab-in-the-loop做药物设计，代表AI制药从“生成分子”走向“可实验闭环”。</li>
+<li><strong>Serif Biomedicines｜5000万美元启动资金｜Modified DNA遗传药物平台</strong>：Flagship Pioneering孵化，早期但平台型潜力强。</li>
+<li><strong>Signadori Bio｜Seed extension｜约1290万美元累计｜实体瘤现货型免疫疗法</strong>：欧洲早期免疫疗法项目，金额小但技术方向明确。</li>
+<li><strong>Agent基础设施早期方向</strong>：Agent执行环境、审计/权限控制、身份与合规、企业系统连接器，是比“通用Agent壳”更值得追踪的卖铲方向。</li>
+</ul></div>
+        </section>
+        <section class="card comment-section">
+          <div class="section-top"><span>05</span><h2>5. 分析师点评</h2></div>
+          <div class="content"><p>本期VC市场的真实变化不是“融资回暖”，而是资本重新定义AI时代的稀缺资产：第一类是能把AI带入现实世界的物理执行层，包括机器人、eVTOL、具身数据、仿真和评测；第二类是能把AI安全嵌入企业系统的可信交付层，包括身份、合规、安全、垂直Agent和托管AI平台；第三类是支撑AI规模化的硬约束，包括芯片IP、电力、核能、低碳金属和关键制造。</p>
+<p>后续30-60天重点看三件事：</p>
+<ul class="brief-list">
+<li>具身智能公司的真实订单、交付毛利和复购，而不是只看融资额与估值；</li>
+<li>Agentic AI是否能从演示型产品变成可审计、可控、可计费的垂直工作流；</li>
+<li>AI基础设施是否继续从算力外溢到能源、身份、安全、数据、仿真和评测。</li>
+</ul></div>
+        </section>
+        <section class="card meta-section">
+          <div class="section-top"><span>06</span><h2>6. 来源与可信度</h2></div>
+          <div class="content"><ul class="brief-list">
+<li>Crunchbase：Q1 2026全球VC统计，AI占比、阶段数据、地域与退出数据；可信度高。</li>
+<li>AlleyWatch / Crunchbase 汇总：2026年4月全球大额融资榜，覆盖Robot Era、Galaxea AI、X Square、Volant Aerotech、Valar Atomics、Blue Energy、SiFive等；可信度中高。</li>
+<li>VCNewsDaily：Didit、Unframe、Boston Metal、Tribal等最新融资新闻；可信度中高到高。</li>
+<li>New Market Pitch：Agentic AI融资排行与结构观察；可信度中等，适合判断赛道结构，单笔仍需交叉验证。</li>
+<li>Xtalks Biotech Funding Tracker：2026生物科技融资追踪，覆盖Isomorphic Labs、Windward Bio、Fathom、Serif等；可信度中高。</li>
+<li>新浪财经/深圳市投资基金同业公会：中国2026股权融资赛道观察；可信度中高，适合作趋势参考。</li>
+</ul></div>
+        </section>
+        <section class="card meta-section">
+          <div class="section-top"><span>07</span><h2>7. 本地归档</h2></div>
+          <div class="content"><ul class="brief-list">
+<li>原始搜索：workspace/intel/vc-research/search-2026-05-27-2230.json</li>
+<li>报告：workspace/intel/vc-research/2026-05-27-2230.md</li>
+<li>卡片：workspace/intel/vc-research/card-2026-05-27-2230.json</li>
+<li>HTML：https://lorcan-l.github.io/vc-briefs/vc-flash/2026/05/27/2230/</li>
+</ul></div>
+        </section>
+    </div>
+    <footer class="footer">Generated by AutoClaw · 本页为飞书卡片的手机阅读版，详细来源见报告末尾。</footer>
+  </main>
+</body>
+</html>
