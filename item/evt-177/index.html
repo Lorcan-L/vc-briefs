@@ -1,0 +1,64 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#07111f"><title>Run Lucio</title><meta name="description" content="Run Lucio 是一个公开构建中的 AI Agent 商业化实验：页面声称由 Christo 配置的 AI agent 在 OpenClaw 基础设施上运行，目标是系统化其多项业务并从零构建 $20K MRR 业务。当前已产品化三档服务：$49 一次性 Playbook、$39/月 Community、以及 DoneforYou 自定义安装与托管。该案例的价值不在已验证收入，而在把“AI agent 运营业务”包装为教育产品、社区订"><style>
+:root{--bg:#fbfaf8;--paper:#fff;--paper-soft:#f7f5f1;--ink:#252525;--muted:#6f6a61;--faint:#9b948a;--line:#e8e3da;--line-strong:#d8d1c6;--accent:#2f6fdd;--accent-soft:#eaf1ff;--warm:#8b5e34;--shadow:0 1px 2px rgba(15,15,15,.04),0 12px 36px rgba(15,15,15,.06)}
+*{box-sizing:border-box;min-width:0}html{width:100%;overflow-x:hidden;background:var(--bg);-webkit-text-size-adjust:100%}body{width:100%;overflow-x:hidden;margin:0;background:linear-gradient(180deg,#fbfaf8 0%,#f6f3ee 100%);color:var(--ink);font-family:"Avenir Next","Gill Sans","Trebuchet MS","PingFang SC","Hiragino Sans GB","Noto Sans CJK SC",sans-serif;letter-spacing:-.01em}a{color:inherit}.top{position:sticky;top:0;z-index:10;background:rgba(251,250,248,.94);backdrop-filter:blur(18px);border-bottom:1px solid rgba(232,227,218,.82)}
+.nav{max-width:1060px;margin:auto;padding:9px 18px;display:grid;grid-template-columns:auto minmax(0,1fr);gap:10px;align-items:center}.brand{font-weight:820;color:#191919;white-space:nowrap;font-size:15px;line-height:1}.brand:before{content:"◧";color:var(--warm);margin-right:7px}.nav-links{display:flex;gap:5px;overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;scrollbar-width:none;min-width:0}.nav-links::-webkit-scrollbar{display:none}.nav a{flex:0 0 auto;color:var(--muted);text-decoration:none;font-size:14px;white-space:nowrap;border-radius:8px;padding:7px 9px;line-height:1}.nav a:hover{background:#efebe4;color:#222}
+.wrap{width:100%;max-width:1060px;margin:0 auto;padding:22px 18px 60px}.hero{padding:22px 0 18px;border-bottom:1px solid var(--line);margin-bottom:18px}.kicker{display:inline-flex;align-items:center;gap:6px;color:var(--warm);background:#f0e7dc;border:1px solid #e2d5c4;border-radius:8px;padding:5px 8px;font-weight:750;font-size:12px;letter-spacing:.04em}.kicker:before{content:"●";font-size:8px}h1{font-family:"Iowan Old Style","Georgia","Songti SC","Noto Serif CJK SC",serif;font-size:clamp(30px,8vw,58px);line-height:1.05;letter-spacing:-.045em;margin:14px 0 10px;font-weight:760;color:#1f1f1f;overflow-wrap:anywhere}.lead{font-size:16px;line-height:1.72;color:var(--muted);max-width:760px;margin:0}.tabs{display:flex;gap:8px;flex-wrap:wrap;overflow:visible;margin:14px 0 0;padding-bottom:2px}.tabs::-webkit-scrollbar{display:none}.tab,.badge{display:inline-flex;align-items:center;max-width:100%;border:1px solid var(--line);background:rgba(255,255,255,.74);border-radius:9px;padding:7px 9px;color:#4f4a43;text-decoration:none;font-size:13px;line-height:1.2;white-space:nowrap}.tab:hover{background:var(--accent-soft);border-color:#cbdaf8;color:#1f4f9e}.badge{background:var(--paper-soft);color:var(--faint);font-size:12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));gap:12px}.card{background:rgba(255,255,255,.88);border:1px solid var(--line);border-radius:14px;padding:16px;box-shadow:var(--shadow);overflow:hidden;contain:layout paint}.card h2,.card h3{margin:0 0 9px;color:#202020;line-height:1.28;overflow-wrap:anywhere}.card h3 a{color:#202020;text-decoration:none}.card h3 a:hover{color:var(--accent)}.meta{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 10px}.summary{color:#5f5a52;line-height:1.68;font-size:14.5px;margin:0;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}.timeline{display:grid;gap:10px}.item{display:grid;grid-template-columns:86px minmax(0,1fr);gap:12px;align-items:start}.date{position:sticky;top:52px;color:var(--warm);font-weight:800;font-size:12px;padding-top:10px;white-space:nowrap}.article{max-width:860px}.article .hero{margin-bottom:14px}.article .card{padding:clamp(16px,4vw,28px)}.article p,.article li{line-height:1.78;color:#3e3a35;font-size:15.5px;overflow-wrap:anywhere}.article h1{font-size:clamp(28px,7.4vw,50px)}.article h2{font-family:"Iowan Old Style","Georgia","Songti SC",serif;margin:30px 0 12px;border-top:1px solid var(--line);padding-top:20px;font-size:25px;line-height:1.2}.article h3{margin:20px 0 8px;font-size:18px}.article ul{padding-left:1.1em}.article li{margin:7px 0}.article code{font-family:"SFMono-Regular","Cascadia Mono",monospace;font-size:.9em;background:#f0eee9;border:1px solid var(--line);border-radius:5px;padding:1px 5px;white-space:normal;overflow-wrap:anywhere}.article pre{max-width:100%;overflow-x:auto;background:#f0eee9;border:1px solid var(--line);border-radius:10px;padding:12px}.footer{color:var(--faint);font-size:12px;margin-top:34px;border-top:1px solid var(--line);padding-top:18px}
+@media(max-width:720px){.wrap{padding:16px 14px 46px}.nav{grid-template-columns:1fr;padding:9px 12px 8px;gap:8px}.nav-links{width:100%;padding-bottom:1px}.tabs{flex-wrap:nowrap;overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;scrollbar-width:none}.tabs::-webkit-scrollbar{display:none}.hero{padding-top:16px}.grid{grid-template-columns:1fr}.item{display:block}.date{position:static;padding:4px 2px 0;margin:6px 0;color:var(--faint)}.card{border-radius:13px;padding:14px;box-shadow:0 1px 2px rgba(15,15,15,.04)}.summary{-webkit-line-clamp:5}.article .card{padding:15px}.article p,.article li{font-size:15px}.tabs{margin-left:-2px;margin-right:-2px;padding-left:2px;padding-right:2px}}
+@media(max-width:380px){.wrap{padding-left:12px;padding-right:12px}.nav a{font-size:13px;padding:7px 8px}.brand{font-size:14px}h1{font-size:29px}.lead{font-size:15px}.tab,.badge{font-size:12px}}
+</style></head><body><div class="top"><nav class="nav"><div class="brand">AutoClaw Intel</div><div class="nav-links"><a href="/vc-briefs/">首页</a><a href="/vc-briefs/timeline/">时间线</a><a href="/vc-briefs/category/vc/">VC</a><a href="/vc-briefs/category/openclaw_case/">OpenClaw案例</a><a href="/vc-briefs/category/agent_business/">Agent商业</a></div></nav></div><main class="wrap article"><section class="hero"><span class="kicker">openclaw_case</span><h1>Run Lucio</h1><p class="lead">Run Lucio 是一个公开构建中的 AI Agent 商业化实验：页面声称由 Christo 配置的 AI agent 在 OpenClaw 基础设施上运行，目标是系统化其多项业务并从零构建 $20K MRR 业务。当前已产品化三档服务：$49 一次性 Playbook、$39/月 Community、以及 DoneforYou 自定义安装与托管。该案例的价值不在已验证收入，而在把“AI agent 运营业务”包装为教育产品、社区订</p><div class="meta"><span class="badge">2026-05-28 23:40</span><span class="badge">mixed</span><span class="badge">source: intel/cases/cases.jsonl</span></div></section><article class="card"><p>```json</p>
+<p>{</p>
+<p>  &quot;id&quot;: &quot;evt-177&quot;,</p>
+<p>  &quot;hash&quot;: &quot;run-lucio-ai-agent-openclaw-20k-mrr-public-build-2026-05-28&quot;,</p>
+<p>  &quot;name&quot;: &quot;Run Lucio&quot;,</p>
+<p>  &quot;title&quot;: &quot;Run Lucio：基于OpenClaw的AI Agent公开构建$20K MRR业务实验&quot;,</p>
+<p>  &quot;category&quot;: &quot;service&quot;,</p>
+<p>  &quot;summary&quot;: &quot;Run Lucio 是一个公开构建中的 AI Agent 商业化实验：页面声称由 Christo 配置的 AI agent 在 OpenClaw 基础设施上运行，目标是系统化其多项业务并从零构建 $20K MRR 业务。当前已产品化三档服务：$49 一次性 Playbook、$39/月 Community、以及 Done-for-You 自定义安装与托管。该案例的价值不在已验证收入，而在把“AI agent 运营业务”包装为教育产品、社区订阅和代部署服务的完整商业漏斗。&quot;,</p>
+<p>  &quot;url&quot;: &quot;https://runlucio.com/&quot;,</p>
+<p>  &quot;source&quot;: &quot;ddgr + web_fetch official site&quot;,</p>
+<p>  &quot;ts&quot;: &quot;2026-05-28T23:40:00+08:00&quot;,</p>
+<p>  &quot;discovered_at&quot;: &quot;2026-05-28T23:40:00+08:00&quot;,</p>
+<p>  &quot;lifecycle_status&quot;: &quot;active&quot;,</p>
+<p>  &quot;next_review_at&quot;: &quot;2026-06-28T23:40:00+08:00&quot;,</p>
+<p>  &quot;revenue_data&quot;: &quot;目标 $20K MRR；当前收入未公开。已上线可支付产品：Playbook $49 one-time、Community $39/month、Done-for-You custom。&quot;,</p>
+<p>  &quot;business_model&quot;: &quot;内容/教育产品 + 订阅社区 + Done-for-You AI agent 安装与托管服务。&quot;,</p>
+<p>  &quot;pricing&quot;: &quot;Playbook $49 一次性；Community $39/月；Done-for-You 定制报价。&quot;,</p>
+<p>  &quot;target_users&quot;: &quot;想用 AI agent/OpenClaw 自动化业务运营的创始人、小企业主、自动化 builder。&quot;,</p>
+<p>  &quot;acquisition&quot;: &quot;Building in public、每日 Build Journal、博客 SEO、站内聊天/表单、Stripe checkout。&quot;,</p>
+<p>  &quot;team&quot;: &quot;Christo + Lucio AI agent（页面自述）；具体团队规模未披露。&quot;,</p>
+<p>  &quot;tech_stack&quot;: &quot;OpenClaw infrastructure + email/web/browser/API tools + VPS + Stripe + 网站/聊天表单。&quot;,</p>
+<p>  &quot;user_count&quot;: &quot;未披露。&quot;,</p>
+<p>  &quot;growth_trajectory&quot;: &quot;Building in public Day 6；早期实验阶段。&quot;,</p>
+<p>  &quot;cost_structure&quot;: &quot;OpenClaw运行环境/VPS + LLM/API成本 + 内容/交付时间；Done-for-You交付有人工服务成本。&quot;,</p>
+<p>  &quot;risks&quot;: &quot;收入目标未验证；案例为项目方自述；AI agent真正独立运营业务的边界需持续观察；Done-for-You可能服务化重、规模化受限。&quot;,</p>
+<p>  &quot;verification&quot;: &quot;官网可访问，公开展示定价和Stripe购买链接；收入目标为自述，未见第三方后台验证。按 B- 级早期商业信号入库。&quot;,</p>
+<p>  &quot;completeness_score&quot;: 70,</p>
+<p>  &quot;completeness_grade&quot;: &quot;B-&quot;,</p>
+<p>  &quot;missing_fields&quot;: [</p>
+<p>    &quot;实际MRR&quot;,</p>
+<p>    &quot;付费用户数&quot;,</p>
+<p>    &quot;转化率&quot;,</p>
+<p>    &quot;客户案例&quot;,</p>
+<p>    &quot;后台截图&quot;</p>
+<p>  ],</p>
+<p>  &quot;needs_research&quot;: true,</p>
+<p>  &quot;replicability&quot;: {</p>
+<p>    &quot;capital&quot;: 1,</p>
+<p>    &quot;skill&quot;: 3,</p>
+<p>    &quot;time_to_revenue&quot;: 2,</p>
+<p>    &quot;team&quot;: 1,</p>
+<p>    &quot;avg&quot;: 1.75</p>
+<p>  },</p>
+<p>  &quot;ceiling&quot;: {</p>
+<p>    &quot;revenue_cap&quot;: 3,</p>
+<p>    &quot;marginal_cost&quot;: 3,</p>
+<p>    &quot;sustainability&quot;: 3,</p>
+<p>    &quot;avg&quot;: 3.0</p>
+<p>  },</p>
+<p>  &quot;competition_window&quot;: &quot;~3个月，AI agent教育/代部署服务窗口仍在，但会快速同质化；差异点在真实公开收入和交付案例。&quot;,</p>
+<p>  &quot;action_hint&quot;: &quot;72小时验证：复制其漏斗结构，做一个垂直版 AI Agent Playbook + 社区 + Done-for-You landing page；先用真实自动化demo和一个Stripe预售按钮验证付费意愿。&quot;,</p>
+<p>  &quot;source_type&quot;: &quot;official_site_build_in_public&quot;,</p>
+<p>  &quot;pattern&quot;: &quot;agent_building_public_to_productized_service&quot;,</p>
+<p>  &quot;verified&quot;: false</p>
+<p>}</p>
+<p>```</p></article></main></body></html>
