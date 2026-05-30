@@ -1,5 +1,23 @@
 [
   {
+    "id": "vc-2026-05-30-1301",
+    "type": "vc",
+    "title": "VC投资动态调研｜2026-05-30 13:01",
+    "summary": "资本继续押注“AI进入可交付系统、物理世界与关键基础设施”，但资金选择更硬：physical AI、AI基础设施、国防航天、能源/半导体、具身数据与企业/医疗工作流成为主线。",
+    "body_md": "# VC投资动态调研｜2026-05-30 13:01\n\n## 1. 本期核心判断\n资本继续押注“AI进入可交付系统、物理世界与关键基础设施”，但资金选择更硬：physical AI、AI基础设施、国防航天、能源/半导体、具身数据与企业/医疗工作流成为主线。\n\n## 2. 本期重点交易\n\n| 项目 | 轮次 | 金额 | 领投方/主要投资方 | 赛道 | 可信度 |\n|---|---:|---:|---|---|---|\n| Project Prometheus | Late-stage / in talks | $10.0B | JPMorgan、BlackRock等据FT | Physical AI / foundational AI | 高/中高：来自AlleyWatch、VCNewsDaily、AI Funding Tracker或中文主流财经交叉验证 |\n| Slate Auto | Late-stage | $650M | 未披露 | EV / advanced manufacturing | 高/中高：来自AlleyWatch、VCNewsDaily、AI Funding Tracker或中文主流财经交叉验证 |\n| True Anomaly | Late-stage | $600M | 未披露 | AI航天安全 / national security | 高/中高：来自AlleyWatch、VCNewsDaily、AI Funding Tracker或中文主流财经交叉验证 |\n| VAST Data | Late-stage | $500M | 未披露 | AI infrastructure | 高/中高：来自AlleyWatch、VCNewsDaily、AI Funding Tracker或中文主流财经交叉验证 |\n| Vulcan Elements | Late-stage | $431M | 未披露 | 稀土磁体 / defense manufacturing | 高/中高：来自AlleyWatch、VCNewsDaily、AI Funding Tracker或中文主流财经交叉验证 |\n| SiFive | Late-stage | $400M | 未披露 | RISC-V semiconductor IP | 高/中高：来自AlleyWatch、VCNewsDaily、AI Funding Tracker或中文主流财经交叉验证 |\n| Valar Atomics | Series B | $340M | 未披露 | Nuclear energy / power grid | 高/中高：来自AlleyWatch、VCNewsDaily、AI Funding Tracker或中文主流财经交叉验证 |\n| Reactor | Stealth / seed-growth | $59M | 未披露 | 实时生成视频开发平台 | 高/中高：来自AlleyWatch、VCNewsDaily、AI Funding Tracker或中文主流财经交叉验证 |\n| Triomics | Series B | $22M | 未披露 | 肿瘤临床AI | 高/中高：来自AlleyWatch、VCNewsDaily、AI Funding Tracker或中文主流财经交叉验证 |\n| Itera | Seed | $12M | 未披露 | Fluid circuit board / deep tech hardware | 高/中高：来自AlleyWatch、VCNewsDaily、AI Funding Tracker或中文主流财经交叉验证 |\n| Didit | Seed total | $7.5M | 未披露 | AI-native identity & fraud infra | 高/中高：来自AlleyWatch、VCNewsDaily、AI Funding Tracker或中文主流财经交叉验证 |\n| 光轮智能 | 新一轮 / A+++后 | 估值>$2B | 蚂蚁集团领投，国资/产业方参与 | 具身数据与物理AI评测基础设施 | 高/中高：来自AlleyWatch、VCNewsDaily、AI Funding Tracker或中文主流财经交叉验证 |\n\n## 3. 赛道热度观察\n\n### AI：资本占比继续高，但重心转向 physical / infrastructure\n- AlleyWatch 报告显示，美国 2026 年 4 月 VC 融资达到 **$20.80B / 442 笔**，同比资本 +63.9%、交易数 +21.1%。\n- AI 公司获得 **$15.18B / 189 笔**，占全部资本 **73.0%**；其中 Project Prometheus 单笔 $10B 占全国总额 48.1%。剔除该异常值，市场仍有 $10.80B / 441 笔，说明不是单一巨轮次撑起全部活跃度。\n- 资金正在流向 AI 之下的基础设施层：VAST Data、nEye.ai、Mintlify、Sygaldry、SiFive 等分别卡住数据系统、互连、文档/开发者基础设施、量子-AI服务器、半导体 IP。\n\n### 国防航天、先进制造、能源成为非AI硬科技主仓位\n- True Anomaly、Vulcan Elements、Hermeus、Valar Atomics、Slate Auto、Glydways 等交易显示，美元资金正在把“国家安全 + 硬件供应链 + 能源约束”重新放进 VC 核心叙事。\n- Series B 被 Valar Atomics $340M 核能交易显著拉高，说明能源基础设施虽然周期长，但在 AI 算力耗电和工业电气化背景下估值弹性上升。\n\n### Agentic AI：从“通用Agent”转向企业可控工作流\n- 最新资金更偏好能进入具体预算项的 agentic 场景：Reactor 做实时视频开发平台，Triomics 做肿瘤临床信息 operationalization，Didit 做身份与欺诈基础设施。\n- AI Funding Tracker 中 Artemis、Mintlify、Legora 等样本也指向同一结论：投资人不只买“智能”，更买可部署、可审计、可嵌入企业系统的控制层。\n\n### 中国一级市场：具身智能/物理AI基础设施进入订单验证期\n- 新浪财经转引深圳市投资基金同业公会：2026 年 4 月仅 8 家具身智能企业融资超 **200 亿元人民币**，估值突破千亿级；中国市场资金集中到 AI、具身智能、半导体、商业航天和低空经济。\n- 光轮智能新一轮由蚂蚁集团领投，估值突破 **$2B**，且 2026Q1 新增订单 **5.5亿元人民币**，体现具身数据/仿真/评测这样的“卖铲人”方向正在被重估。\n- 中国证券报显示，红杉中国、高瓴创投一季度布局从具身本体扩展到核心零部件、AI硬件、低空经济、商业航天与聚变能源，关键词是“量产、订单、非共识硬科技”。\n\n### 生物科技：热度未消失，但更偏临床/商业化可验证\n- Labiotech 与 Xtalks 类 tracker 继续显示 2026 年 biotech funding 仍活跃；从近期 VCNewsDaily 可见 Signos $20M、Triomics $22M Series B 等医疗/生命科学交叉项目。\n- 投资逻辑从“AI制药平台故事”转向“临床流程提效、真实世界数据、监管路径和内部管线读出”。\n\n## 4. 值得关注的早期项目\n\n- **Itera**：$12M seed，fluid circuit board，深科技硬件。看点是能否把电子/流体/热管理问题做成新型计算硬件模块。\n- **Didit**：seed 总额 $7.5M，AI-native identity and fraud infrastructure。若能成为 agentic workflow 的身份/权限/风控底座，早期空间大。\n- **Triomics**：$22M Series B，肿瘤临床 AI，把复杂临床信息 operationalize，是医疗 AI 从摘要工具走向流程系统的代表。\n- **Reactor**：$59M 出 stealth，实时生成视频开发平台。视频生成进入工程化后，开发者平台和 API 层可能比单点模型更有商业确定性。\n- **光轮智能**：虽已成独角兽，但其“具身数据 + 仿真 + 评测”是物理AI卖铲人，订单增长比估值更值得追踪。\n\n## 5. 分析师点评\n\n本期最重要的变化不是“AI还热不热”，而是**VC正在给AI补齐物理世界和企业部署的缺口**。过去18个月，模型、算力、应用都已形成拥挤交易；现在资金开始追逐更难但更稀缺的环节：高可信数据、仿真评测、光/电/半导体互连、身份风控、临床与国防工作流、核能/电网等基础设施。\n\n我的判断：\n1. **巨轮次会继续扭曲总量**，所以看VC景气度不能只看融资金额，要剔除 Project Prometheus、Anthropic、Cursor 这类超级交易后看中位数和 Series A/B 数量。\n2. **企业AI进入“交付能力估值”阶段**：能证明 ROI、能进生产系统、能处理权限/审计/安全的公司更容易拿钱。\n3. **中国硬科技融资正在从概念转向订单**：具身智能、低空经济、商业航天和半导体都要用量产能力、交付毛利和产业资本接盘能力来定价。\n4. **值得持续跟踪的方向**：physical AI 数据/仿真/评测，AI data center interconnect，agentic identity/security，医疗流程AI，核能/电网供给侧，具身智能核心零部件。\n\n## Sources\n- AlleyWatch: The April 2026 US Venture Capital Funding Report.\n- VCNewsDaily: Reactor / Signos / Triomics / Itera / Didit / Unframe funding entries, 2026-05-22 to 2026-05-29.\n- AI Funding Tracker: Top AI Startup Funding Rounds - April 2026.\n- Labiotech: Biotech funding in 2026 tracker methodology page.\n- 新浪财经/深圳市投资基金同业公会：8家企业狂揽200亿：2026年VC的钱，都流向了哪里？\n- 腾讯新闻：AI基建独角兽光轮智能完成新一轮融资，估值突破20亿美元。\n- 中国证券报：不止具身智能 解码红杉高瓴投资新方向。\n\n本地归档：`workspace/intel/vc-research/2026-05-30-1301.md`\n手机详情页：https://lorcan-l.github.io/vc-briefs/vc-flash/2026/05/30/1301/\n统一资讯站入口：https://lorcan-l.github.io/vc-briefs/\n",
+    "occurred_at": "2026-05-30T13:01:00+08:00",
+    "discovered_at": "2026-05-30T13:01:00+08:00",
+    "source_path": "intel/vc-research/2026-05-30-1301.md",
+    "public_url": "https://lorcan-l.github.io/vc-briefs/vc-flash/2026/05/30/1301/",
+    "confidence": "mixed",
+    "importance": 4,
+    "dedupe_key": "vc-58b141d24515fadf",
+    "thread_id": "thread-vc-2026-05-30",
+    "raw_hash": "1f6cfd0d4b66ee45",
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
+  },
+  {
     "id": "vc-2026-05-30-1230",
     "type": "vc",
     "title": "VC投资动态调研｜2026-05-30 12:30",
@@ -14,8 +32,8 @@
     "dedupe_key": "vc-bf73ceef6f09ea06",
     "thread_id": "thread-vc-2026-05-30",
     "raw_hash": "ea1177b913c4471e",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-30-1201",
@@ -32,8 +50,8 @@
     "dedupe_key": "vc-5b2568e308e492d1",
     "thread_id": "thread-vc-2026-05-30",
     "raw_hash": "f54a99dbc94e2349",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-30-1130",
@@ -50,8 +68,8 @@
     "dedupe_key": "vc-024860b77fb38b35",
     "thread_id": "thread-vc-2026-05-30",
     "raw_hash": "40a7614c4fbec1a6",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-30-1101",
@@ -68,8 +86,8 @@
     "dedupe_key": "vc-b7e6204247561b48",
     "thread_id": "thread-vc-2026-05-30",
     "raw_hash": "3a435ff22d551212",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-30-1030",
@@ -86,8 +104,8 @@
     "dedupe_key": "vc-c94ca574e646f278",
     "thread_id": "thread-vc-2026-05-30",
     "raw_hash": "0503417673bb7af8",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-30-1002",
@@ -104,8 +122,8 @@
     "dedupe_key": "vc-840cb4e4c53f0c9b",
     "thread_id": "thread-vc-2026-05-30",
     "raw_hash": "443d212f4adad352",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-30-0931",
@@ -122,8 +140,8 @@
     "dedupe_key": "vc-ed8395fb4cd97b5a",
     "thread_id": "thread-vc-2026-05-30",
     "raw_hash": "bc3df46080ce4780",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-30-0902",
@@ -140,8 +158,8 @@
     "dedupe_key": "vc-0624ffe03561351b",
     "thread_id": "thread-vc-2026-05-30",
     "raw_hash": "85e00854686f1fdc",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-29-2330",
@@ -158,8 +176,8 @@
     "dedupe_key": "vc-e13d6fc4b1a093f0",
     "thread_id": "thread-vc-2026-05-29",
     "raw_hash": "5d17fc3381fb6725",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-29-2301",
@@ -176,8 +194,8 @@
     "dedupe_key": "vc-ef343d1a417fe04b",
     "thread_id": "thread-vc-2026-05-29",
     "raw_hash": "ec4012b74def3b36",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-29-2230",
@@ -194,8 +212,8 @@
     "dedupe_key": "vc-78d14c11dd37b256",
     "thread_id": "thread-vc-2026-05-29",
     "raw_hash": "9ebac40893d5eaa7",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-29-2203",
@@ -212,8 +230,8 @@
     "dedupe_key": "vc-5047abe76f438264",
     "thread_id": "thread-vc-2026-05-29",
     "raw_hash": "dc512948c606423d",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-29-2130",
@@ -230,8 +248,8 @@
     "dedupe_key": "vc-92be98cdd51dc900",
     "thread_id": "thread-vc-2026-05-29",
     "raw_hash": "4c8a47c8c092622b",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-29-2102",
@@ -248,8 +266,8 @@
     "dedupe_key": "vc-f6344508d9b906fc",
     "thread_id": "thread-vc-2026-05-29",
     "raw_hash": "0c8799d81a73c890",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-29-2030",
@@ -266,8 +284,8 @@
     "dedupe_key": "vc-5ef17f9d624db11b",
     "thread_id": "thread-vc-2026-05-29",
     "raw_hash": "41e3a5997744c10a",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-29-1901",
@@ -284,8 +302,8 @@
     "dedupe_key": "vc-380847e465112354",
     "thread_id": "thread-vc-2026-05-29",
     "raw_hash": "642854835524dbc5",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-29-1830",
@@ -302,8 +320,8 @@
     "dedupe_key": "vc-ebc077d2bc4e9016",
     "thread_id": "thread-vc-2026-05-29",
     "raw_hash": "00364bbe86504c86",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-29-1802",
@@ -320,8 +338,8 @@
     "dedupe_key": "vc-7c6603067015e0df",
     "thread_id": "thread-vc-2026-05-29",
     "raw_hash": "0b66f7e8eabc12c8",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-29-1730",
@@ -338,8 +356,8 @@
     "dedupe_key": "vc-0e8a9913af8bad99",
     "thread_id": "thread-vc-2026-05-29",
     "raw_hash": "22f8d281343dbaaf",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-29-1701",
@@ -356,8 +374,8 @@
     "dedupe_key": "vc-fcb97573626b7bbd",
     "thread_id": "thread-vc-2026-05-29",
     "raw_hash": "fdfcd83f47f11cad",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-29-1630",
@@ -374,8 +392,8 @@
     "dedupe_key": "vc-44d1438616e52907",
     "thread_id": "thread-vc-2026-05-29",
     "raw_hash": "fb99ea9ab6766ead",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-29-1601",
@@ -392,8 +410,8 @@
     "dedupe_key": "vc-2a5aaef517c41935",
     "thread_id": "thread-vc-2026-05-29",
     "raw_hash": "562f9c9418c19e41",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-29-1530",
@@ -410,8 +428,8 @@
     "dedupe_key": "vc-8eb1240a79c1f514",
     "thread_id": "thread-vc-2026-05-29",
     "raw_hash": "eb02439e5d965d03",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-29-1506",
@@ -428,8 +446,8 @@
     "dedupe_key": "vc-1b916d856543aafe",
     "thread_id": "thread-vc-2026-05-29",
     "raw_hash": "422a7107fe567962",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-29-1402",
@@ -446,8 +464,8 @@
     "dedupe_key": "vc-93064c98aaa5baff",
     "thread_id": "thread-vc-2026-05-29",
     "raw_hash": "9ffe5ec580e6f040",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-29-1330",
@@ -464,8 +482,8 @@
     "dedupe_key": "vc-1a99422aa9c374a4",
     "thread_id": "thread-vc-2026-05-29",
     "raw_hash": "a1d487014f52d520",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-29-1301",
@@ -482,8 +500,8 @@
     "dedupe_key": "vc-588c288baceeae0f",
     "thread_id": "thread-vc-2026-05-29",
     "raw_hash": "8b9d0520f23f138d",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-29-1230",
@@ -500,8 +518,8 @@
     "dedupe_key": "vc-38c5cdb0baffc695",
     "thread_id": "thread-vc-2026-05-29",
     "raw_hash": "1e1ae75349f4976d",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-29-1201",
@@ -518,8 +536,8 @@
     "dedupe_key": "vc-b1d8fbf93af7ad66",
     "thread_id": "thread-vc-2026-05-29",
     "raw_hash": "60bd4b3d21c66b6b",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-29-1130",
@@ -536,8 +554,8 @@
     "dedupe_key": "vc-bfb724dd48854ba5",
     "thread_id": "thread-vc-2026-05-29",
     "raw_hash": "e299b423a329a5bd",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-29-1101",
@@ -554,8 +572,8 @@
     "dedupe_key": "vc-6b4c96599625dc6b",
     "thread_id": "thread-vc-2026-05-29",
     "raw_hash": "8eb7c2e32846d5a5",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-29-1030",
@@ -572,8 +590,8 @@
     "dedupe_key": "vc-5ccf1d67b40df9fe",
     "thread_id": "thread-vc-2026-05-29",
     "raw_hash": "f29ce324d35ecdb3",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-29-1002",
@@ -590,8 +608,8 @@
     "dedupe_key": "vc-aa2b615725d60443",
     "thread_id": "thread-vc-2026-05-29",
     "raw_hash": "ac0aad0f2ccb61dd",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-29-0932",
@@ -608,8 +626,8 @@
     "dedupe_key": "vc-58d4a8f3e1136af9",
     "thread_id": "thread-vc-2026-05-29",
     "raw_hash": "f4ce95d805048b3c",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-29-0901",
@@ -626,8 +644,8 @@
     "dedupe_key": "vc-fd71dc268acd9755",
     "thread_id": "thread-vc-2026-05-29",
     "raw_hash": "2c7fb7a60787f57e",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "evt-177",
@@ -644,8 +662,8 @@
     "dedupe_key": "bd1adb5c840eb2bf",
     "thread_id": "thread-run-lucio",
     "raw_hash": "e98f2cc41d09ba75",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-28-2330",
@@ -662,8 +680,8 @@
     "dedupe_key": "vc-32a9c6f7fc48e786",
     "thread_id": "thread-vc-2026-05-28",
     "raw_hash": "ff40202b61df72ad",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-28-2301",
@@ -680,8 +698,8 @@
     "dedupe_key": "vc-504c96b27b2998da",
     "thread_id": "thread-vc-2026-05-28",
     "raw_hash": "a7724f1f77d0bb1f",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-28-2230",
@@ -698,8 +716,8 @@
     "dedupe_key": "vc-c026d058e5dc3f2a",
     "thread_id": "thread-vc-2026-05-28",
     "raw_hash": "dd4e6a42646cb61a",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-28-2202",
@@ -716,8 +734,8 @@
     "dedupe_key": "vc-6b3df9eb77560d22",
     "thread_id": "thread-vc-2026-05-28",
     "raw_hash": "164bf043a72dd845",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-28-2130",
@@ -734,8 +752,8 @@
     "dedupe_key": "vc-b4f32ae09b4ffa2a",
     "thread_id": "thread-vc-2026-05-28",
     "raw_hash": "35ebaad53a6c7a5c",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-28-2101",
@@ -752,8 +770,8 @@
     "dedupe_key": "vc-05544be53d24945a",
     "thread_id": "thread-vc-2026-05-28",
     "raw_hash": "31896abae79c70e2",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-28-2030",
@@ -770,8 +788,8 @@
     "dedupe_key": "vc-faf65a35dbe3a21f",
     "thread_id": "thread-vc-2026-05-28",
     "raw_hash": "90f411590894f99f",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-28-2001",
@@ -788,8 +806,8 @@
     "dedupe_key": "vc-c56c7a755ab28692",
     "thread_id": "thread-vc-2026-05-28",
     "raw_hash": "45d3dc8187d56627",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-28-1932",
@@ -806,8 +824,8 @@
     "dedupe_key": "vc-e2e84b03e43cf509",
     "thread_id": "thread-vc-2026-05-28",
     "raw_hash": "79dced6d52291815",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-28-1901",
@@ -824,8 +842,8 @@
     "dedupe_key": "vc-aae711f86f9a0513",
     "thread_id": "thread-vc-2026-05-28",
     "raw_hash": "7b4369f0746b5a7f",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-28-1830",
@@ -842,8 +860,8 @@
     "dedupe_key": "vc-3902c629c32f789d",
     "thread_id": "thread-vc-2026-05-28",
     "raw_hash": "9349a44dc504a4cc",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-28-1802",
@@ -860,8 +878,8 @@
     "dedupe_key": "vc-c22501192b901b8d",
     "thread_id": "thread-vc-2026-05-28",
     "raw_hash": "1d55f167f454dbf4",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-28-1730",
@@ -878,8 +896,8 @@
     "dedupe_key": "vc-f4a2562ad4f0ff5b",
     "thread_id": "thread-vc-2026-05-28",
     "raw_hash": "8060bf60f9a6f9e7",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-28-1701",
@@ -896,8 +914,8 @@
     "dedupe_key": "vc-96d72447d3d1341a",
     "thread_id": "thread-vc-2026-05-28",
     "raw_hash": "ca8e6d8b1eb78c9a",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-28-1604",
@@ -914,8 +932,8 @@
     "dedupe_key": "vc-e30c74367320bcfa",
     "thread_id": "thread-vc-2026-05-28",
     "raw_hash": "19b4a96b986c6fe2",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-28-1530",
@@ -932,8 +950,8 @@
     "dedupe_key": "vc-d20a8ae128f235bc",
     "thread_id": "thread-vc-2026-05-28",
     "raw_hash": "ab8f113d1d80f525",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-28-1501",
@@ -950,8 +968,8 @@
     "dedupe_key": "vc-c8dd929c8b65b524",
     "thread_id": "thread-vc-2026-05-28",
     "raw_hash": "53fbc6178a00ce92",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-28-1430",
@@ -968,8 +986,8 @@
     "dedupe_key": "vc-28f8115d8ec77d57",
     "thread_id": "thread-vc-2026-05-28",
     "raw_hash": "914f43768cd7a2e7",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-28-1401",
@@ -986,8 +1004,8 @@
     "dedupe_key": "vc-6e543254746cbcf3",
     "thread_id": "thread-vc-2026-05-28",
     "raw_hash": "41a4fad784ee0f8a",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-28-1330",
@@ -1004,8 +1022,8 @@
     "dedupe_key": "vc-5587bf5ff99ed6b6",
     "thread_id": "thread-vc-2026-05-28",
     "raw_hash": "c36a5485830c18fa",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-28-1301",
@@ -1022,8 +1040,8 @@
     "dedupe_key": "vc-95ac24aba407d7e8",
     "thread_id": "thread-vc-2026-05-28",
     "raw_hash": "4a883dd3b29c713b",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-28-1230",
@@ -1040,8 +1058,8 @@
     "dedupe_key": "vc-8288cb1e359e0332",
     "thread_id": "thread-vc-2026-05-28",
     "raw_hash": "5db055308ab54551",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-28-1130",
@@ -1058,8 +1076,8 @@
     "dedupe_key": "vc-e87afbef0d31ed72",
     "thread_id": "thread-vc-2026-05-28",
     "raw_hash": "df0c66272e10f8f1",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-28-1102",
@@ -1076,8 +1094,8 @@
     "dedupe_key": "vc-260b0cf000e2eb72",
     "thread_id": "thread-vc-2026-05-28",
     "raw_hash": "4abe1111c92bfe02",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-28-1030",
@@ -1094,8 +1112,8 @@
     "dedupe_key": "vc-8c4c2f899406bb75",
     "thread_id": "thread-vc-2026-05-28",
     "raw_hash": "4eaf6efb235257d0",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-28-1001",
@@ -1112,8 +1130,8 @@
     "dedupe_key": "vc-f9d6268cdbb18644",
     "thread_id": "thread-vc-2026-05-28",
     "raw_hash": "f9b30fd104ac9895",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-28-0931",
@@ -1130,8 +1148,8 @@
     "dedupe_key": "vc-cb19e3957c30c971",
     "thread_id": "thread-vc-2026-05-28",
     "raw_hash": "27c6ef50dfa4afb5",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-28-0901",
@@ -1148,8 +1166,8 @@
     "dedupe_key": "vc-43afa8b25a90705a",
     "thread_id": "thread-vc-2026-05-28",
     "raw_hash": "42ec22c9ba30d26e",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-27-2330",
@@ -1166,8 +1184,8 @@
     "dedupe_key": "vc-422d0055bd1c0286",
     "thread_id": "thread-vc-2026-05-27",
     "raw_hash": "e90c5b31f9bf56b0",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-27-2300",
@@ -1184,8 +1202,8 @@
     "dedupe_key": "vc-2f4f9d5eb91ed82c",
     "thread_id": "thread-vc-2026-05-27",
     "raw_hash": "bd418edadb7a6019",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-27-2230",
@@ -1202,8 +1220,8 @@
     "dedupe_key": "vc-80a37db035ac619c",
     "thread_id": "thread-vc-2026-05-27",
     "raw_hash": "029477cbef46b814",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-27-2201",
@@ -1220,8 +1238,8 @@
     "dedupe_key": "vc-9850b24a1c6ed639",
     "thread_id": "thread-vc-2026-05-27",
     "raw_hash": "1de5340bae7a8192",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-27-2130",
@@ -1238,8 +1256,8 @@
     "dedupe_key": "vc-9a93e1ced534e646",
     "thread_id": "thread-vc-2026-05-27",
     "raw_hash": "56346620d58db63f",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-27-2103",
@@ -1256,8 +1274,8 @@
     "dedupe_key": "vc-ccbbfb5ba8c39637",
     "thread_id": "thread-vc-2026-05-27",
     "raw_hash": "6734333190bd198c",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-27-2030",
@@ -1274,8 +1292,8 @@
     "dedupe_key": "vc-d1e863d830a88629",
     "thread_id": "thread-vc-2026-05-27",
     "raw_hash": "2ac2c12f8184f35b",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-27-2001",
@@ -1292,8 +1310,8 @@
     "dedupe_key": "vc-b82254d8a6113967",
     "thread_id": "thread-vc-2026-05-27",
     "raw_hash": "3892b334ff9c8fc6",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-27-1930",
@@ -1310,8 +1328,8 @@
     "dedupe_key": "vc-8679e2b1d0a3347b",
     "thread_id": "thread-vc-2026-05-27",
     "raw_hash": "c133b50d76ad926c",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-27-1900",
@@ -1328,8 +1346,8 @@
     "dedupe_key": "vc-9d7f322fa8c7c69f",
     "thread_id": "thread-vc-2026-05-27",
     "raw_hash": "73a0ec33b05f9a6d",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-27-1830",
@@ -1346,8 +1364,8 @@
     "dedupe_key": "vc-0c83a7fa9f8ca4b4",
     "thread_id": "thread-vc-2026-05-27",
     "raw_hash": "2665bb3f77477f40",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-27-1801",
@@ -1364,8 +1382,8 @@
     "dedupe_key": "vc-323580456f33453f",
     "thread_id": "thread-vc-2026-05-27",
     "raw_hash": "e3e2333f5f17666c",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-27-1730",
@@ -1382,8 +1400,8 @@
     "dedupe_key": "vc-50eb7427aa62846d",
     "thread_id": "thread-vc-2026-05-27",
     "raw_hash": "576f077d4f5e50e7",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-27-1700",
@@ -1400,8 +1418,8 @@
     "dedupe_key": "vc-bd930b2846f3323e",
     "thread_id": "thread-vc-2026-05-27",
     "raw_hash": "5b32eab851db46a1",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-27-1630",
@@ -1418,8 +1436,8 @@
     "dedupe_key": "vc-d2e62304aae64fd5",
     "thread_id": "thread-vc-2026-05-27",
     "raw_hash": "3f3561f76f6ed1f0",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-27-1602",
@@ -1436,8 +1454,8 @@
     "dedupe_key": "vc-60b10e4899077df9",
     "thread_id": "thread-vc-2026-05-27",
     "raw_hash": "1af12c2084635914",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-27-1530",
@@ -1454,8 +1472,8 @@
     "dedupe_key": "vc-e3ffc42a8ff36b24",
     "thread_id": "thread-vc-2026-05-27",
     "raw_hash": "8b1d765fb8dd3f2a",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-27-1500",
@@ -1472,8 +1490,8 @@
     "dedupe_key": "vc-16c5b42e88b6c26d",
     "thread_id": "thread-vc-2026-05-27",
     "raw_hash": "c99e913943a50a7f",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-27-1430",
@@ -1490,8 +1508,8 @@
     "dedupe_key": "vc-2dfea030a928bac6",
     "thread_id": "thread-vc-2026-05-27",
     "raw_hash": "c8f3e3fb82169d6d",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-27-1400",
@@ -1508,8 +1526,8 @@
     "dedupe_key": "vc-3836972633f24288",
     "thread_id": "thread-vc-2026-05-27",
     "raw_hash": "24c5b9996932aa9f",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-27-1330",
@@ -1526,8 +1544,8 @@
     "dedupe_key": "vc-ef9b71a4c5dd88ed",
     "thread_id": "thread-vc-2026-05-27",
     "raw_hash": "83b9dcdac07c4d6a",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-27-1300",
@@ -1544,8 +1562,8 @@
     "dedupe_key": "vc-ce50eb89470c6317",
     "thread_id": "thread-vc-2026-05-27",
     "raw_hash": "dac10a1ec6826569",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-27-1230",
@@ -1562,8 +1580,8 @@
     "dedupe_key": "vc-1191dbcf4eff6130",
     "thread_id": "thread-vc-2026-05-27",
     "raw_hash": "34425acd251f19d0",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-27-1202",
@@ -1580,8 +1598,8 @@
     "dedupe_key": "vc-b98ae0512aa4944a",
     "thread_id": "thread-vc-2026-05-27",
     "raw_hash": "6148f71c019b4283",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-27-1130",
@@ -1598,8 +1616,8 @@
     "dedupe_key": "vc-739f5762ed69b706",
     "thread_id": "thread-vc-2026-05-27",
     "raw_hash": "d9935d7757932ff9",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-27-1100",
@@ -1616,8 +1634,8 @@
     "dedupe_key": "vc-720855ba3158e4ea",
     "thread_id": "thread-vc-2026-05-27",
     "raw_hash": "c45b26887569cfbc",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-27-1030",
@@ -1634,8 +1652,8 @@
     "dedupe_key": "vc-6a5ad3b5a4a8fd30",
     "thread_id": "thread-vc-2026-05-27",
     "raw_hash": "e1d5a7e48bfe997d",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-27-1001",
@@ -1652,8 +1670,8 @@
     "dedupe_key": "vc-05a13cc972f601c0",
     "thread_id": "thread-vc-2026-05-27",
     "raw_hash": "06164324f6839839",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-27-0931",
@@ -1670,8 +1688,8 @@
     "dedupe_key": "vc-039b7c1171cbf842",
     "thread_id": "thread-vc-2026-05-27",
     "raw_hash": "0c76182852929047",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-27-0900",
@@ -1688,8 +1706,8 @@
     "dedupe_key": "vc-e1eee8718bcf58e7",
     "thread_id": "thread-vc-2026-05-27",
     "raw_hash": "6c1fc44c27579a1e",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-26-2330",
@@ -1706,8 +1724,8 @@
     "dedupe_key": "vc-919aae102b6ede54",
     "thread_id": "thread-vc-2026-05-26",
     "raw_hash": "04cb84687b004498",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-26-2300",
@@ -1724,8 +1742,8 @@
     "dedupe_key": "vc-d25f90f13bed7bac",
     "thread_id": "thread-vc-2026-05-26",
     "raw_hash": "a04cb9b840367040",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-26-2230",
@@ -1742,8 +1760,8 @@
     "dedupe_key": "vc-74a860d7fa25b45f",
     "thread_id": "thread-vc-2026-05-26",
     "raw_hash": "5bc2b4c279e6803f",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-26-2204",
@@ -1760,8 +1778,8 @@
     "dedupe_key": "vc-9141ac7c8e39c2b2",
     "thread_id": "thread-vc-2026-05-26",
     "raw_hash": "a770f8b9fa175026",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   },
   {
     "id": "vc-2026-05-26-2130",
@@ -1778,25 +1796,7 @@
     "dedupe_key": "vc-96e027d92f75e599",
     "thread_id": "thread-vc-2026-05-26",
     "raw_hash": "087eda02e944645e",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
-  },
-  {
-    "id": "vc-2026-05-26-2101",
-    "type": "vc",
-    "title": "VC投资动态调研｜2026-05-26 21:01",
-    "summary": "资本正在继续押注“AI 从模型走向可执行生产系统”与“硬科技/生物医药的高确定性资产”：AI 仍是资金黑洞，但增量交易更偏向企业交付、Agentic AI 基础设施、机器人/具身智能、关键工业材料和临床/平台兼具的 biotech。",
-    "body_md": "# VC投资动态调研｜2026-05-26 21:01\n\n## 1. 本期核心判断\n资本正在继续押注“AI 从模型走向可执行生产系统”与“硬科技/生物医药的高确定性资产”：AI 仍是资金黑洞，但增量交易更偏向企业交付、Agentic AI 基础设施、机器人/具身智能、关键工业材料和临床/平台兼具的 biotech。\n\n## 2. 本期重点交易\n\n- **Unframe**｜追加融资｜**5000万美元**｜Highland Europe 领投，Bessemer、Craft、TLV、Third Point 等跟投｜企业 AI 交付平台  \n  - 信号：公司称 12 个月 TCV 超 1 亿美元、净收入留存 400%，说明资本开始奖励“把 AI pilot 变成生产系统”的服务/平台混合型公司。\n\n- **Boston Metal**｜融资｜**7500万美元**｜Tata Steel 与现有投资者参与｜关键金属/绿色冶金/Climate Industrial Tech  \n  - 信号：气候科技投资不再泛 ESG，而转向能重塑钢铁、关键金属等工业流程的硬技术。\n\n- **Tribal**｜Seed｜**1000万美元**｜Team8 领投，DYDX Capital 与企业软件创业者天使参与｜Enterprise-native AI  \n  - 信号：企业复杂系统原生 AI 平台仍处早期窗口，创业团队的 Salesforce/Wix/Spot.io 背景强化企业级落地可信度。\n\n- **Windward Bio**｜Crossover｜**1.65亿美元**｜OrbiMed、Novo Holdings、Blue Owl、SR One、Omega、RTW、Qiming、RA Capital、Sanofi Ventures 等｜长效免疫抗体药物  \n  - 信号：biotech 大额资金更偏向有明确临床读出路径、免疫/呼吸疾病等大适应症资产。\n\n- **CellCentric**｜Series D｜**2.2亿美元**｜Venrock Healthcare Capital Partners 等｜多发性骨髓瘤口服药 inobrodib  \n  - 信号：后期临床资产继续获得大额支持，IPO/M&A 退出预期改善是估值修复的重要背景。\n\n- **Fathom Therapeutics**｜Series A｜**4700万美元**｜Sutter Hill、Chemistry、Alexandria Venture Investments、NY Ventures 等｜AI + 物理模拟小分子药物设计  \n  - 信号：AI drug discovery 从“平台故事”转向 lab-in-the-loop 与内部管线验证。\n\n- **中国具身智能/硬科技组合**｜4月 8 家具身智能企业合计融资超 **200亿元人民币**｜红杉、高瓴、BV百度风投等活跃｜机器人/核心部件/AI硬件  \n  - 信号：中国一级市场资金集中流向政策确定性、技术壁垒、量产验证更强的赛道。\n\n- **东昇聚变**｜天使轮｜**数亿元人民币**｜红杉中国、IDG资本、高瓴、中科创星、鼎晖百孚、龙芯创投等｜可控核聚变/未来能源  \n  - 信号：顶级机构开始在极长周期硬科技上“抢位”，但商业化周期与技术风险极高。\n\n## 3. 赛道热度观察\n\n### AI / Agentic AI\nCrunchbase Q1 2026 数据显示，全球 VC 投资约 **3000亿美元**，AI 约 **2420亿美元**，占比约 **80%**。资金结构高度集中：OpenAI、Anthropic、xAI、Waymo 等超大额交易吸走绝大多数资本。早期与成长阶段仍增长，但 deal count 并未同步扩张，说明“金额扩张 > 项目扩张”。\n\nAgentic AI 赛道正在从“通用 Agent 概念”切到更明确的执行层：法律、客服、代码、企业工作流、招聘、医疗电话、SOC 安全、AI 搜索/web infra 等。New Market Pitch 跟踪的 top 100 agentic AI 公司累计融资约 **98亿美元**，Top 10 吸走约 60%，a16z 是最活跃机构之一。\n\n### 中国硬科技\n新浪/深圳市投资基金同业公会的赛道观察显示，中国市场资金向 AI 全产业链、具身智能与机器人、半导体、商业航天/低空经济、创新药、新能源链、高端装备与新材料集中。政策确定性与退出渠道改善，正在成为一级市场重新定价的核心。\n\n### Biotech\n2026 biotech 融资呈现两端化：一边是 CellCentric、Windward Bio 等后期/交叉轮大额融资，另一边是 Fathom、Serif、Signadori 等平台型或早期资产。共同点是更强调临床路径、机制差异化、AI/物理模型对研发效率的实际贡献。\n\n### Climate / Industrial Tech\nBoston Metal 这类项目说明气候科技资金仍在，但更挑剔：能否切入关键金属、钢铁、储能、氢能等高资本开支工业环节，并取得产业方参与，是融资成败的关键。\n\n## 4. 值得关注的早期项目\n\n- **Tribal**｜Seed 1000万美元｜企业复杂系统 AI 原生平台。关注其能否从“企业系统理解”发展为可复制的 workflow agent 平台。\n- **Fathom Therapeutics**｜Series A 4700万美元｜物理 + AI + lab-in-the-loop 小分子设计。关注 difficult-to-drug target 的候选物推进速度。\n- **Serif Biomedicines**｜Flagship Pioneering 5000万美元启动｜Modified DNA genetic medicines。关注非病毒/低免疫激活递送路线能否建立平台壁垒。\n- **Signadori Bio**｜Seed extension 约1110万欧元｜实体瘤 off-the-shelf 免疫治疗。金额不大，但方向具备平台化潜力。\n- **东昇聚变**｜天使轮数亿元人民币｜可控核聚变。高风险高上限，适合长期跟踪而非短期财务回报判断。\n\n## 5. 分析师点评\n\n1. **VC 市场是“结构性过热”，不是全面复苏。** 资金总量被 AI 巨头和少数硬科技标的显著拉高，普通 SaaS、消费、无明确技术壁垒项目仍不容易融资。\n2. **AI 投资正在从模型层外溢到交付层与基础设施层。** Unframe、Tribal、Nimble、Parloa 等案例共同指向：企业不缺模型，缺把模型嵌入流程、治理、数据与 ROI 的系统。\n3. **中国市场更像政策确定性资产定价。** 具身智能、半导体、商业航天、低空经济、聚变能源等赛道共同特点是政策背书强、资本开支高、退出路径更依赖并购/上市制度环境。\n4. **Biotech 正从估值修复进入精选资产期。** 创新药、AI 制药、免疫/呼吸/肿瘤资产能拿钱，但“只有平台没有管线”的故事折价会加大。\n5. **后续最值得追踪的方向：** Agentic AI workflow infra、企业 AI delivery、AI search/web data layer、机器人量产供应链、AI drug discovery 的临床转化、关键工业材料电气化/低碳工艺。\n\n## 6. 可信度与来源\n\n- 高可信：Crunchbase Q1 VC 数据、VCNewsDaily 单笔融资公告、Xtalks/Labiotech biotech tracker、21经济网/投资界稿件。\n- 中可信：New Market Pitch Agentic AI 排名，适合作为赛道地图与相对热度参考，但单笔估值/融资仍需与公司公告或 Crunchbase/PitchBook 交叉验证。\n- 受限来源：QbitAI 页面抓取 403，本轮仅使用搜索摘要交叉验证“地瓜机器人 B 轮累计 2.7 亿美元”等线索，未纳入重点交易主表。\n\n## 7. 本地归档\n\n- 搜索结果：`intel/vc-research/search-2026-05-26-2101.json`\n- 报告：`intel/vc-research/2026-05-26-2101.md`\n- 飞书卡片：`intel/vc-research/card-2026-05-26-2101.json`\n",
-    "occurred_at": "2026-05-26T21:01:00+08:00",
-    "discovered_at": "2026-05-26T21:01:00+08:00",
-    "source_path": "intel/vc-research/2026-05-26-2101.md",
-    "public_url": "https://lorcan-l.github.io/vc-briefs/vc-flash/2026/05/26/2101/",
-    "confidence": "mixed",
-    "importance": 4,
-    "dedupe_key": "vc-75e5010e8fa4c131",
-    "thread_id": "thread-vc-2026-05-26",
-    "raw_hash": "adc0d05deb8cbf62",
-    "created_at": "2026-05-30T13:01:29",
-    "updated_at": "2026-05-30T13:01:29"
+    "created_at": "2026-05-30T13:06:14",
+    "updated_at": "2026-05-30T13:06:14"
   }
 ]
