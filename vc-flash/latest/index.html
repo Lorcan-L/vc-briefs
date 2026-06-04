@@ -1,90 +1,138 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<title>VC投资动态调研｜2026-06-04 14:01</title>
-<style>
-:root { color-scheme: light; --bg:#f6f8fc; --card:#ffffff; --text:#142033; --muted:#667085; --blue:#1d4ed8; --line:#e6eaf2; }
-* { box-sizing:border-box; }
-body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB",sans-serif; background:linear-gradient(180deg,#eef4ff 0%,var(--bg) 260px); color:var(--text); }
-.wrap { max-width:760px; margin:0 auto; padding:20px 14px 48px; }
-.hero { padding:22px 18px; border-radius:24px; background:linear-gradient(135deg,#1d4ed8,#0f172a); color:white; box-shadow:0 18px 50px rgba(29,78,216,.22); margin-bottom:16px; }
-.hero .kicker { font-size:13px; opacity:.78; letter-spacing:.04em; }
-.hero h1 { margin:8px 0 0; font-size:26px; line-height:1.18; }
-.card { background:rgba(255,255,255,.94); border:1px solid var(--line); border-radius:22px; padding:18px; box-shadow:0 10px 30px rgba(16,24,40,.06); }
-h1 { display:none; }
-h2 { font-size:18px; line-height:1.3; margin:24px 0 10px; padding-left:10px; border-left:4px solid var(--blue); }
-p { font-size:15px; line-height:1.75; margin:10px 0; }
-ul { padding-left:0; list-style:none; margin:10px 0; }
-li { font-size:15px; line-height:1.65; margin:10px 0; padding:12px 13px; background:#f8fafc; border:1px solid #edf1f7; border-radius:14px; }
-strong { color:#0f172a; }
-.sep { color:#94a3b8; }
-.footer { color:var(--muted); font-size:13px; text-align:center; margin-top:20px; }
-a { color:#1d4ed8; }
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#08111f" />
+  <title>VC投资动态调研｜2026-06-04 14:30</title>
+  <style>
+    :root {
+      --bg:#08111f; --ink:#eef4ff; --muted:#93a4bd; --line:rgba(255,255,255,.13);
+      --card:rgba(255,255,255,.075); --card2:rgba(255,255,255,.11); --accent:#62e6ff;
+      --hot:#ffb45e; --green:#8dffb3; --shadow:0 24px 70px rgba(0,0,0,.34);
+    }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background: radial-gradient(circle at 20% -10%, #245ecb 0, transparent 34%), radial-gradient(circle at 90% 10%, #00c6ff66 0, transparent 28%), linear-gradient(180deg,#08111f,#0b1220 48%,#05070d); font-family: ui-serif, 'Songti SC', 'Noto Serif CJK SC', Georgia, serif; }
+    body:before { content:""; position:fixed; inset:0; pointer-events:none; opacity:.22; background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px); background-size:24px 24px; mask-image:linear-gradient(#000,transparent 80%); }
+    .wrap { width:min(980px,100%); margin:0 auto; padding:22px 16px 56px; }
+    .mast { padding:28px 2px 22px; }
+    .kicker { display:inline-flex; gap:8px; align-items:center; color:#07111f; background:var(--accent); border-radius:999px; padding:7px 11px; font:700 12px/1 ui-sans-serif,system-ui; letter-spacing:.08em; text-transform:uppercase; }
+    h1 { margin:18px 0 10px; font-size:clamp(31px,8vw,68px); line-height:.96; letter-spacing:-.055em; max-width:900px; }
+    .summary { color:#d8e4f7; font-size:clamp(16px,4vw,21px); line-height:1.62; max-width:760px; margin:0; }
+    .meta { display:flex; flex-wrap:wrap; gap:10px; margin-top:18px; color:var(--muted); font:600 12px/1.2 ui-sans-serif,system-ui; }
+    .pill { border:1px solid var(--line); background:rgba(255,255,255,.06); border-radius:999px; padding:8px 10px; }
+    .card { margin:14px 0; padding:18px; border:1px solid var(--line); border-radius:28px; background:linear-gradient(180deg,var(--card2),var(--card)); box-shadow:var(--shadow); backdrop-filter:blur(18px); }
+    .hero-section { border-color:rgba(98,230,255,.45); background:linear-gradient(135deg,rgba(98,230,255,.17),rgba(255,255,255,.07)); }
+    .deal-section { border-color:rgba(255,180,94,.38); }
+    .comment-section { border-color:rgba(141,255,179,.32); }
+    .meta-section { opacity:.86; }
+    .section-top { display:grid; grid-template-columns:auto 1fr; gap:12px; align-items:start; margin-bottom:12px; }
+    .section-top span { color:#07111f; background:var(--hot); min-width:35px; height:28px; border-radius:12px; display:grid; place-items:center; font:900 12px/1 ui-sans-serif,system-ui; }
+    h2 { margin:0; font-size:22px; letter-spacing:-.03em; line-height:1.12; }
+    h3 { margin:18px 0 8px; color:var(--accent); font:800 15px/1.35 ui-sans-serif,system-ui; }
+    p, li { color:#dce7f8; font-size:15.5px; line-height:1.72; }
+    p { margin:9px 0; }
+    .brief-list { margin:8px 0 0; padding:0; list-style:none; }
+    .brief-list li { position:relative; padding:11px 0 11px 18px; border-top:1px solid rgba(255,255,255,.09); }
+    .brief-list li:before { content:""; position:absolute; left:0; top:22px; width:7px; height:7px; border-radius:50%; background:var(--accent); box-shadow:0 0 18px var(--accent); }
+    strong { color:#fff; font-weight:900; }
+    code { color:#b8f5ff; background:rgba(98,230,255,.12); border:1px solid rgba(98,230,255,.18); padding:2px 5px; border-radius:7px; }
+    .footer { color:var(--muted); padding:24px 4px 0; font:600 12px/1.6 ui-sans-serif,system-ui; }
+    .share { margin-top:14px; display:inline-flex; color:#07111f; background:var(--green); text-decoration:none; border-radius:16px; padding:12px 14px; font:900 13px/1 ui-sans-serif,system-ui; }
+    @media (min-width:760px) { .grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; } .grid .card:first-child, .grid .deal-section { grid-column:1/-1; } .card { margin:0; padding:24px; } }
+  </style>
 </head>
 <body>
-<div class="wrap">
-  <section class="hero"><div class="kicker">VC FLASH · 2026-06-04 14:01</div><h1>VC投资动态调研</h1></section>
-  <article class="card"><h1>VC投资动态调研｜2026-06-04 14:01</h1>
-<h2>1. 本期核心判断</h2>
-<p>资本继续押注“AI进入真实经济的生产资料层”：企业情报/垂直 Agent、实时生成视频、AI-native biotech 与半导体/机器人/能源/国防航天等物理基础设施，正在成为当前 VC 最愿意用高估值换确定性的方向。</p>
-<h2>2. 本期重点交易</h2>
-<ul>
-<li><strong>AlphaSense</strong><span class="sep">｜</span>成长轮<span class="sep">｜</span><strong>3.5亿美元</strong><span class="sep">｜</span>Vitruvian Partners、Accenture Ventures、J.P. Morgan Asset Management 领投/联合领投<span class="sep">｜</span>企业 AI / 市场情报平台  </li>
+  <main class="wrap">
+    <header class="mast">
+      <div class="kicker">VC FLASH BRIEF</div>
+      <h1>VC投资动态调研｜2026-06-04 14:30</h1>
+      <p class="summary">资本正在押注“AI变成真实经济的生产资料”：一边是AlphaSense、Suno这类已有ARR/用户规模的AI应用继续高估值融资，另一边是AI-native biotech、实时生成视频、肿瘤临床数据、电子工程原型和中国具身智能/半导体/航天等硬科技基础设施继续吸金。</p>
+      <div class="meta"><span class="pill">更新时间：2026-06-04 14:30</span><span class="pill">移动端快讯版</span><span class="pill">AutoClaw Research</span></div>
+      <a class="share" href="https://lorcan-l.github.io/vc-briefs/vc-flash/2026/06/04/1430/vc-1430-index.html">复制/打开当前链接</a>
+    </header>
+    <div class="grid">
+      
+        <section class="card hero-section">
+          <div class="section-top"><span>01</span><h2>1. 本期核心判断</h2></div>
+          <div class="content"><p>资本正在押注“AI变成真实经济的生产资料”：一边是AlphaSense、Suno这类已有ARR/用户规模的AI应用继续高估值融资，另一边是AI-native biotech、实时生成视频、肿瘤临床数据、电子工程原型和中国具身智能/半导体/航天等硬科技基础设施继续吸金。</p></div>
+        </section>
+        <section class="card deal-section">
+          <div class="section-top"><span>02</span><h2>2. 本期重点交易</h2></div>
+          <div class="content"><ul class="brief-list">
+<li><strong>AlphaSense</strong>｜Growth/未披露轮次｜<strong>$350M</strong>｜Vitruvian Partners、Accenture Ventures、J.P. Morgan Asset Management领投｜企业AI/市场情报｜可信度：高，VCNewsDaily单笔披露；估值$7.5B，Q1 2026 ARR超$600M。</li>
+<li><strong>Suno</strong>｜Series D｜<strong>$400M</strong>｜Bond Capital领投，IVP、Lightspeed等参投｜AI音乐生成/创作者工具｜可信度：高，财联社/腾讯新闻援引公司公告；投后估值$5.4B。</li>
+<li><strong>Reactor</strong>｜Stealth/Seed-Growth组合融资｜<strong>$59M</strong>｜Lightspeed Venture Partners领投，WndrCo、Amplify、Sky9、FPV参投｜实时生成视频/World Models｜可信度：高，VCNewsDaily披露。</li>
+<li><strong>Triomics</strong>｜Series B｜<strong>$22M</strong>｜Battery Ventures领投，Nexus、Lightspeed、Y Combinator等参投｜肿瘤AI/临床数据基础设施｜可信度：高，VCNewsDaily披露；累计融资超$36M。</li>
+<li><strong>Waypoint Bio</strong>｜Series A｜<strong>$20M</strong>｜Amplify Partners领投，General Catalyst、Time BioVentures、Mitsui、Lux等参投｜AI-native biotech/空间生物学/CAR T｜可信度：高，VCNewsDaily披露。</li>
+<li><strong>Itera</strong>｜Seed｜<strong>$12M</strong>｜Upfront Ventures、Costanoa Ventures、Colle Capital｜深科技/电子工程原型/流体电路板｜可信度：高，VCNewsDaily披露。</li>
+<li><strong>Signos</strong>｜未披露轮次｜<strong>$20M</strong>｜未在首页摘要披露｜代谢健康/连续血糖监测｜可信度：中高，VCNewsDaily首页摘要，未深读投资方。</li>
+</ul></div>
+        </section>
+        <section class="card ">
+          <div class="section-top"><span>03</span><h2>3. 赛道热度观察</h2></div>
+          <div class="content"><h3>AI应用：资本更偏好“已有收入曲线”的应用层赢家</h3>
+<ul class="brief-list">
+<li>AlphaSense以$7.5B估值融$350M，且披露ARR超$600M；Suno以$5.4B估值融$400M，并披露用户和ARR增长信号。共同点不是“模型故事”，而是已经形成可计量的订阅/企业收入。</li>
+<li>KPMG Q1 2026 Venture Pulse显示，全球VC投资从Q4 2025的$128.6B跳升至Q1 2026的$330.9B，10笔$2B+巨额交易贡献超$206B；AI相关公司仍是金额端核心。</li>
 </ul>
-<p>  - 估值 <strong>75亿美元</strong>，较上轮 40 亿美元接近翻倍；ARR 超 6 亿美元。信号：资本愿为“可验证收入 + 企业知识工作流入口”继续支付溢价。</p>
-<ul>
-<li><strong>Reactor</strong><span class="sep">｜</span>Stealth/早期融资<span class="sep">｜</span><strong>5900万美元</strong><span class="sep">｜</span>Lightspeed Venture Partners 领投，WndrCo、Amplify、Sky9、FPV 等参投<span class="sep">｜</span>实时生成视频 / world model 开发平台  </li>
+<h3>Agentic AI：垂直工作流比通用Agent更受资金认可</h3>
+<ul class="brief-list">
+<li>New Market Pitch统计，2025年6月至2026年5月，pure-play agentic AI共40笔公开股权融资、$1.413B。</li>
+<li>其中垂直AI Agent占26/40笔、$1.052B，占披露资本74.5%；北美占$1.238B，占87.7%。这说明资金押的是可接管具体流程、有系统集成、有结果衡量的Agent。</li>
 </ul>
-<p>  - 生成式视频从内容工具走向开发者基础设施，押注实时交互和世界模型能力。</p>
-<ul>
-<li><strong>Triomics</strong><span class="sep">｜</span>Series B<span class="sep">｜</span><strong>2200万美元</strong><span class="sep">｜</span>Battery Ventures 领投，Nexus、Lightspeed、YC、Oncology Ventures 等参投<span class="sep">｜</span>医疗 AI / 肿瘤临床数据基础设施  </li>
+<h3>AI-native biotech/医疗AI：从“平台叙事”走向临床和数据闭环</h3>
+<ul class="brief-list">
+<li>Waypoint Bio用AI、计算机视觉和空间 pooled screening 设计下一代实体瘤CAR T；Triomics把癌症纵向病历转为结构化、可解释智能，用于试验匹配、病历准备和数据抽象。</li>
+<li>生物科技融资仍围绕AI药物设计、肿瘤、免疫、临床数据基础设施展开；投资人更看重平台能否导出可进入临床/可进入医院流程的资产。</li>
 </ul>
-<p>  - 场景聚焦 trial matching、chart prep、oncology data abstraction，说明医疗 AI 更受欢迎的是能落地到院内流程的结构化工具。</p>
-<ul>
-<li><strong>Waypoint Bio</strong><span class="sep">｜</span>Series A<span class="sep">｜</span><strong>2000万美元</strong><span class="sep">｜</span>Amplify Partners 领投，General Catalyst、Time BioVentures、Mitsui、Lux 等参投<span class="sep">｜</span>AI-native biotech / CAR-T / spatial biology  </li>
+<h3>生成式媒体：版权风险缓解后，AI内容工具重回高估值窗口</h3>
+<ul class="brief-list">
+<li>Suno本轮融资的关键信号不只是$400M，而是与华纳音乐和解/授权后，AI音乐生成从版权冲突走向商业合作；这给AI视频、AI图像、AI音乐等生成式媒体资产重新定价。</li>
+<li>Reactor的$59M说明实时生成视频/世界模型也在成为开发者基础设施，而非单一内容工具。</li>
 </ul>
-<p>  - AI + spatial pooled screening + CAR-T，临床进入节点预计 2026 年末，代表 AI-native drug design 仍在早期持续吸金。</p>
-<ul>
-<li><strong>Itera</strong><span class="sep">｜</span>Seed<span class="sep">｜</span><strong>1200万美元</strong><span class="sep">｜</span>未披露完整领投方（VCNewsDaily）<span class="sep">｜</span>深科技 / 流体电路板  </li>
+<h3>中国硬科技：政策确定性和退出通道是融资复苏底层逻辑</h3>
+<ul class="brief-list">
+<li>新浪财经/深圳市投资基金同业公会称，2026年一季度中国股权投资市场新募基金数量和金额分别同比+114.0%和+79.8%，先进制造、AI、半导体几乎垄断关注。</li>
+<li>2026年4月仅8家具身智能企业融资超200亿元，体现机器人量产链条、半导体、商业航天、低空经济等方向仍是人民币基金的主战场。</li>
+</ul></div>
+        </section>
+        <section class="card ">
+          <div class="section-top"><span>04</span><h2>4. 值得关注的早期项目</h2></div>
+          <div class="content"><ul class="brief-list">
+<li><strong>Waypoint Bio</strong>：$20M Series A，AI-native spatial biology + in vivo CAR T，若2026年底中国临床进入顺利，可能成为AI制药/细胞治疗结合的标杆早期案例。</li>
+<li><strong>Itera</strong>：$12M Seed，流体电路板让工程师用真实元件实时测试和修改电子设计，属于“AI时代硬件研发效率工具”的底层拼图。</li>
+<li><strong>Reactor</strong>：虽融资额已达$59M，但仍处于从stealth进入市场阶段；实时生成视频/世界模型若能进入游戏、仿真、机器人训练，将具备平台化潜力。</li>
+<li><strong>Triomics</strong>：$22M Series B， oncology AI不追求替代医生，而是先吃下试验匹配、chart prep、数据抽象等高频流程，商业落地路径更短。</li>
+</ul></div>
+        </section>
+        <section class="card comment-section">
+          <div class="section-top"><span>05</span><h2>5. 分析师点评</h2></div>
+          <div class="content"><p>本期最重要的变化是：AI融资从“谁的模型更大”进一步转向“谁能把AI装进业务、内容、医疗和硬件研发流程”。AlphaSense和Suno代表应用层的收入验证，Waypoint/Triomics代表AI进入生命科学工作流，Reactor代表生成式媒体向实时世界模型升级，Itera代表硬件研发工具链被重新做一遍。</p>
+<p>对VC来说，下一阶段值得追踪三类指标：</p>
+<p class="numbered">1. <strong>收入质量</strong>：ARR、净留存、企业客户渗透率，而不是下载量或demo热度。</p>
+<p class="numbered">2. <strong>流程控制权</strong>：Agent/AI工具是否真正接管任务闭环，是否嵌入企业系统和审批权限。</p>
+<p class="numbered">3. <strong>硬科技退出确定性</strong>：中国具身智能、半导体、商业航天和低空经济能否形成订单、上市/并购路径与产业资本接盘。</p>
+<p>短期看，AI相关资产估值仍会被巨额交易抬高；但真正值得早期追的是“有明确场景、有数据闭环、有商业化证据”的垂直AI和硬科技基础设施。</p></div>
+        </section>
+        <section class="card ">
+          <div class="section-top"><span>06</span><h2>Sources</h2></div>
+          <div class="content"><ul class="brief-list">
+<li>VCNewsDaily：首页融资动态与AlphaSense、Waypoint Bio、Reactor、Triomics、Itera单笔交易页。</li>
+<li>KPMG Private Enterprise Venture Pulse Q1 2026。</li>
+<li>New Market Pitch：Agentic AI Startup Funding 2025-2026。</li>
+<li>新浪财经/深圳市投资基金同业公会：8家企业狂揽200亿：2026年VC的钱，都流向了哪里？</li>
+<li>腾讯新闻/财联社：AI音乐独角兽Suno $400M D轮融资。</li>
+<li>Labiotech：Biotech funding in 2026 tracker（作为生物科技融资方向交叉验证）。</li>
 </ul>
-<p>  - 虽然金额不大，但“全新硬件架构/先进制造”符合当前深科技 seed 轮的可投方向。</p>
-<h2>3. 赛道热度观察</h2>
-<ul>
-<li><strong>AI 仍是绝对主线，但正在从模型层外溢到应用与基础设施。</strong> KPMG Venture Pulse 显示 2026Q1 全球 VC 投资达到 <strong>3309亿美元</strong>，其中 10 笔 20 亿美元以上巨额交易贡献 2060 亿美元；AI 公司占大头。更重要的是，资金不只流向 foundation model，还流向半导体、数据中心、agentic AI、physical AI、垂直应用。</li>
-<li><strong>企业 AI / Agentic workflow 开始以收入和工作流替代能力定价。</strong> New Market Pitch 的 2025-2026 agentic AI 数据显示，纯 agentic AI 公开股权融资 40 笔、合计 <strong>14.13亿美元</strong>，其中垂直工作流替代类占 65% 的交易数和 74.5% 的资金。资本不是在买“通用 Agent”概念，而是在买能接管任务、接入系统、产生可衡量结果的垂直软件。</li>
-<li><strong>医疗 AI 与 AI-native biotech 分化明显。</strong> Triomics 偏院内工作流与数据结构化，Waypoint Bio 偏研发平台与疗法资产；前者更接近 SaaS/基础设施，后者是高风险高回报 biotech 资产。</li>
-<li><strong>中国市场资金继续集中在硬科技与政策确定性赛道。</strong> 中文来源显示，2026 年中国股权融资逻辑高度集中于 AI、具身智能、半导体、商业航天/低空经济、生物医药、新能源与高端装备；具身智能与机器人在 4 月出现超 200 亿元级别融资集中度。</li>
-</ul>
-<h2>4. 值得关注的早期项目</h2>
-<ul>
-<li><strong>Waypoint Bio</strong>：AI-native biotech + spatial biology + CAR-T，Series A 规模不大但投资人质量高，值得跟踪临床进入节点和中美研发/临床路径。</li>
-<li><strong>Reactor</strong>：实时生成视频开发平台，若能从 demo 走向开发者 API/工具链，有机会从“视频生成”切到“实时世界模型基础设施”。</li>
-<li><strong>Itera</strong>：流体电路板方向偏硬件范式创新，适合跟踪是否能转化为先进制造或半导体/电子工程新平台。</li>
-</ul>
-<h2>5. 分析师点评</h2>
-<p>本期资金流向呈现三个层次：</p>
-<p>1. <strong>确定性收入层</strong>：AlphaSense 这类 ARR 明确、客户预算清晰、可嵌入企业知识工作流的平台仍能获得高估值。</p>
-<p>2. <strong>AI 应用基础设施层</strong>：Reactor、agentic workflow 数据显示，投资人正在寻找能成为下一代软件开发/业务执行基础设施的公司。</p>
-<p>3. <strong>物理世界高壁垒层</strong>：biotech、机器人、半导体、能源、国防航天等赛道吸金，本质上是资本在寻找 AI 之外可形成供应链、政策与技术复合壁垒的资产。</p>
-<p>值得持续追踪：企业 AI 的真实 ARR 质量、Agent 产品从“自动化工具”到“系统权限入口”的迁移、AI-native biotech 的临床里程碑、实时视频/world model 的开发者生态，以及中国具身智能融资热度是否能转化为量产订单。</p>
-<h2>来源与可信度</h2>
-<ul>
-<li>VCNewsDaily 最新融资页与单笔交易页：AlphaSense、Waypoint Bio、Reactor、Triomics、Itera（高，来自融资新闻聚合/公司新闻稿摘要）</li>
-<li>KPMG Venture Pulse Q1&#x27;26：全球 VC 投资规模与结构（高，专业机构报告）</li>
-<li>New Market Pitch Agentic AI funding analysis：agentic AI 赛道结构化数据（中高，第三方整理，需注意样本定义）</li>
-<li>Labiotech 2026 tracker：biotech 赛道方法论与趋势参考（中，页面未完整暴露逐笔数据）</li>
-<li>新浪财经/深圳市投资基金同业公会：中文市场赛道方向与政策逻辑（中，适合作为趋势交叉验证）</li>
-</ul>
-<h2>本地归档</h2>
-<ul>
-<li>原始搜索：`intel/vc-research/raw-search-2026-06-04-1401.json`</li>
-<li>抓取记录：`intel/vc-research/fetch-2026-06-04-1401.json`</li>
-<li>报告：`intel/vc-research/2026-06-04-1401.md`</li>
-</ul></article>
-  <div class="footer">完整时间线与分类归档：<a href="https://lorcan-l.github.io/vc-briefs/">vc-briefs</a></div>
-</div>
+<p>本地归档：<code>workspace/intel/vc-research/2026-06-04-1430.md</code></p>
+<p>原始检索：<code>workspace/intel/vc-research/raw-search-2026-06-04-1430.json</code></p>
+<p>抓取记录：<code>workspace/intel/vc-research/fetch-2026-06-04-1430.json</code></p>
+<p>手机快讯页：https://lorcan-l.github.io/vc-briefs/vc-flash/2026/06/04/1430/</p>
+<p>统一资讯站入口：https://lorcan-l.github.io/vc-briefs/</p></div>
+        </section>
+    </div>
+    <footer class="footer">Generated by AutoClaw · 本页为飞书卡片的手机阅读版，详细来源见报告末尾。</footer>
+  </main>
 </body>
 </html>
